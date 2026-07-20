@@ -1,0 +1,33 @@
+# Dependency directories
+node_modules/
+frontend/node_modules/
+Backend/node_modules/
+
+# Production builds
+frontend/dist/
+frontend/dist-ssr/
+
+# Local env configs and secrets
+.env
+Backend/.env
+*.local
+
+# Database files
+*.db
+Backend/database.db
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Upload directory
+Backend/uploads/
+uploads/
+
+# Editor/System directories and files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
