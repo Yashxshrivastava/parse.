@@ -8,7 +8,7 @@ const ALLOWED_TYPES = [
   "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
 ];
 
-const API_BASE_URL = "http://localhost:3000/api/resume";
+const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:3000/api/resume";
 
 function UploadScreen({ onUploadSuccess }) {
   const [loading, setLoading] = useState(false);
